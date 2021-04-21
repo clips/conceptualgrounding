@@ -8,7 +8,7 @@ Pieter Fivez, Simon Šuster and Walter Daelemans. *EACL*, 2021.
 If you use this code, please cite:
 
     @inproceedings{fivez-etal-2021-conceptual,
-    title = "Conceptual Grounding Constraints for Truly Robust Biomedical Name Representations", <br/>
+    title = "Conceptual Grounding Constraints for Truly Robust Biomedical Name Representations",
     author = "Fivez, Pieter  and
       Suster, Simon  and
       Daelemans, Walter",
@@ -16,10 +16,6 @@ If you use this code, please cite:
     year = "2021",
     publisher = "Association for Computational Linguistics",
     pages = "2440--2450"}
-
-
-The fastText model used in the paper can be downloaded from the following link: 
-https://drive.google.com/file/d/1B07lc3eeW_zughHguugLBR4iJYQj_Wxz/view?usp=sharing
 
 ## License
 
@@ -31,6 +27,10 @@ All requirements are listed in **requirements.txt**.
 
 You can run `pip install -r requirements.txt`, preferably in a virtual environment.
 
+The fastText model used in the paper can be downloaded from the following link: 
+https://drive.google.com/file/d/1B07lc3eeW_zughHguugLBR4iJYQj_Wxz/view?usp=sharing \
+Our example scripts require a path to this downloaded model.
+
 ## Data
 
 For convenience, we only provide our adaptation of the openly available MedMentions corpus. \
@@ -38,7 +38,7 @@ The source files for this corpus can be found at https://github.com/chanzuckerbe
 
 The script **data/extract_medmentions.py** has used these source files to create **data/medmentions.json**.
 
-## Data
+## Code
 
 We provide 2 scripts to run experiments from the paper. 
 
